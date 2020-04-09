@@ -305,7 +305,7 @@ def batch_add_edge(bn_set):
 
 
 
-
+# transfer bn to bnstructure
 def auto_add_edge(bn):
     
     v_list=[]
