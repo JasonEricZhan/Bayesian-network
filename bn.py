@@ -15,17 +15,12 @@ import copy
 
 ## bnstructure is just the graph structure for a BN (it has parent
 ## sets, but no factors)
-## You need to implement "mle" which generates a Bayesian network
-## (bn) with the same structure, but with the CPTs filled in with their
-## maximum likelihood estimates
+##  "mle" is maximum likelihood estimates
 
 # for sampling
 # use np.random.choice(n,p=[....]) to sample
 # from a categorical distribution where [....] is a vector or np.array
 # of the probabilities of each outcome and n is the size of this vector/array
-#
-# Do NOT change the random number seed.  If needed, the testing code
-# will set the random number seed before executing "sample"
 
 class NotDAGError:
     pass
